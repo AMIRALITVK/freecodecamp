@@ -1,4 +1,5 @@
 import express from 'express';
+import validUrl from 'valid-url';
 import helmet from 'helmet';
 import cors from 'cors';
 
@@ -6,6 +7,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(helmet());
 app.use(cors({ origin: '*' }));
 
@@ -50,6 +52,15 @@ app.get('/api/whoami', (req, res) => {
 
   } catch (e) {
     res.status(400).json({ error: e });
+  }
+});
+
+
+app.post('/api/shorturl', (req, res) => {
+  try {
+
+  } catch (e) {
+
   }
 });
 

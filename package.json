@@ -16,11 +16,13 @@
     "express": "^5.1.0",
     "helmet": "^8.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/valid-url": "^1.0.7",
     "nodemon": "^3.1.10"
   }
 }
