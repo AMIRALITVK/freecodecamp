@@ -1,2 +1,2 @@
 # freecodecamp
-This a repo for free-code-camp certificate projects
+This is a repo for free-code-camp certificate projects
